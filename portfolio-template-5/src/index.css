@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #ffffff;
+    color: #0f0f0f;
+    font-family: Inter, system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  a {
+    color: inherit;
+    text-underline-offset: 3px;
+  }
+
+  button {
+    cursor: pointer;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fade-in 0.7s ease-out both;
+  }
+
+  @keyframes fade-in {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .hero-bg {
+    background:
+      radial-gradient(ellipse 60% 50% at 5% 5%, #d1fae5 0%, transparent 55%),
+      radial-gradient(ellipse 50% 40% at 95% 85%, #ecfdf5 0%, transparent 50%),
+      #ffffff;
+  }
+}
