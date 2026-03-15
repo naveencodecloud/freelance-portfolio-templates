@@ -61,4 +61,3 @@ Open links in a new tab with:
 ![Preview](https://raw.githubusercontent.com/naveencodecloud/freelance-portfolio-templates/main/preview/6.png)
 
 ---
-⭐ If you find this repository useful, consider giving it a **star**.
