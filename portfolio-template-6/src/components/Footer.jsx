@@ -21,9 +21,9 @@ export const Footer = () => {
                             <span className="text-[#ffe600]">in mind?</span>
                         </h2>
                     </div>
-                    <a href="mailto:hello@site.com"
+                    <a href="mailto:hello@naveen.studio"
                         className="inline-flex items-center gap-3 px-8 py-4 bg-[#ffe600] text-neutral-900 font-black text-sm uppercase tracking-widest hover:bg-white transition-colors no-underline hover:no-underline group shrink-0">
-                        hello@site.com
+                        hello@naveen.studio
                         <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                     </a>
                 </div>
@@ -31,7 +31,7 @@ export const Footer = () => {
                 {/* Bottom Row */}
                 <div className="py-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
                     <span className="text-xs text-neutral-500 font-bold uppercase tracking-wider">
-                        © site.com {new Date().getFullYear()}. All rights reserved.
+                        © naveen.studio {new Date().getFullYear()}. All rights reserved.
                     </span>
                     <div className="flex items-center gap-2">
                         {socialLinks.map(({ href, icon: Icon, label }, i) => (

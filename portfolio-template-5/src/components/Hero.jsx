@@ -58,7 +58,7 @@ export const Hero = () => {
                         </p>
 
                         <div className="flex flex-wrap gap-3 mb-12">
-                            <a href="mailto:hello@site.com"
+                            <a href="mailto:hello@naveen.studio"
                                 className="inline-flex items-center gap-2 px-6 py-3 bg-zinc-900 text-white rounded-lg text-sm font-semibold hover:bg-zinc-700 transition-colors no-underline hover:no-underline">
                                 Start a project <ArrowUpRight className="w-4 h-4" />
                             </a>

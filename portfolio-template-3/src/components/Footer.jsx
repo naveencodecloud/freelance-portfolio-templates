@@ -23,7 +23,7 @@ export const Footer = () => {
                     ))}
                 </div>
             </div>
-            <p className="text-sm text-[#0d0d0d]/35 dark:text-[#f5f5f5]/20 mt-12">© site.com {new Date().getFullYear()}. All rights reserved.</p>
+            <p className="text-sm text-[#0d0d0d]/35 dark:text-[#f5f5f5]/20 mt-12">© naveen.studio {new Date().getFullYear()}. All rights reserved.</p>
         </footer>
     )
 }

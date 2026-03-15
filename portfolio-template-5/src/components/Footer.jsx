@@ -21,16 +21,16 @@ export const Footer = () => {
                             <span className="text-emerald-500">Let's ship it.</span>
                         </h2>
                     </div>
-                    <a href="mailto:hello@site.com"
+                    <a href="mailto:hello@naveen.studio"
                         className="inline-flex items-center gap-3 px-7 py-4 bg-zinc-900 text-white rounded-xl font-semibold text-sm hover:bg-zinc-700 transition-colors no-underline hover:no-underline group shrink-0">
-                        hello@site.com
+                        hello@naveen.studio
                         <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                     </a>
                 </div>
 
                 {/* Bottom */}
                 <div className="border-t border-zinc-100 pt-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-                    <span className="text-sm text-zinc-400">© site.com {new Date().getFullYear()}. All rights reserved.</span>
+                    <span className="text-sm text-zinc-400">© naveen.studio {new Date().getFullYear()}. All rights reserved.</span>
                     <div className="flex items-center gap-4">
                         <div className="flex items-center gap-3">
                             {socialLinks.map(({ href, icon: Icon, label }, i) => (

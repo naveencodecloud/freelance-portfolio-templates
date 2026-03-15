@@ -38,7 +38,7 @@ export const Hero = () => {
                 {/* Yellow accent band */}
                 <div className="bg-[#ffe600] border-b border-neutral-300 px-6 py-2 flex items-center gap-3 -mx-8">
                     <div className="w-2 h-2 rounded-full bg-neutral-800" />
-                    <span className="text-xs font-bold uppercase tracking-[0.3em] text-neutral-800">Available for projects — 2025</span>
+                    <span className="text-xs font-bold uppercase tracking-[0.3em] text-neutral-800">Available for new projects</span>
                 </div>
 
                 <div className="py-20 border-b border-neutral-200">
@@ -58,7 +58,7 @@ export const Hero = () => {
                             <p className="text-base leading-relaxed text-neutral-500">
                                 I design websites, brands, and digital experiences that are bold by intention and precise by craft.
                             </p>
-                            <a href="mailto:hello@site.com"
+                            <a href="mailto:hello@naveen.studio"
                                 className="inline-flex items-center gap-2 px-6 py-3 bg-neutral-900 text-white font-bold text-xs uppercase tracking-widest hover:bg-[#ffe600] hover:text-neutral-900 transition-colors no-underline hover:no-underline group">
                                 Start a Project
                                 <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
