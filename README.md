@@ -1,8 +1,8 @@
 # Ready to Use Freelance Portfolio Templates
 
 ## Live Demo -
-### Portfolio Template #1
-https://freelance-site-1.vercel.app
+### <a href="https://freelance-site-1.vercel.app" target="_blank">Portfolio Template #1</a>
+![Preview](./preview/preview-template-1.png)
 
 ### Portfolio Template #2
 https://freelance-site-2.vercel.app
