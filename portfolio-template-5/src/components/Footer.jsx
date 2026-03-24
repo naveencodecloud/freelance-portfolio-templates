@@ -21,9 +21,9 @@ export const Footer = () => {
                             <span className="text-emerald-500">Let's ship it.</span>
                         </h2>
                     </div>
-                    <a href="mailto:hello@naveen.studio"
+                    <a href="mailto:hello@example.com"
                         className="inline-flex items-center gap-3 px-7 py-4 bg-zinc-900 text-white rounded-xl font-semibold text-sm hover:bg-zinc-700 transition-colors no-underline hover:no-underline group shrink-0">
-                        hello@naveen.studio
+                        hello@example.com
                         <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                     </a>
                 </div>

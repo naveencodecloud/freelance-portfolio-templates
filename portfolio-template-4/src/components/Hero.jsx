@@ -13,7 +13,7 @@ export const Hero = () => {
                         {["Work", "About"].map((item) => (
                             <a key={item} href={`#${item.toLowerCase()}`} className="text-sm text-white/60 hover:text-white transition-colors no-underline hover:no-underline">{item}</a>
                         ))}
-                        <a href="mailto:hello@naveen.studio" className="text-sm px-4 py-2 rounded-lg bg-violet-600 text-white font-medium hover:bg-violet-500 transition-colors no-underline hover:no-underline">Contact</a>
+                        <a href="mailto:hello@example.com" className="text-sm px-4 py-2 rounded-lg bg-violet-600 text-white font-medium hover:bg-violet-500 transition-colors no-underline hover:no-underline">Contact</a>
                     </div>
                 </div>
             </nav>
@@ -53,7 +53,7 @@ export const Hero = () => {
                     </div>
 
                     <div className="flex justify-center gap-4">
-                        <a href="mailto:hello@naveen.studio" className="inline-flex items-center gap-2 px-6 py-3 bg-linear-to-r from-violet-600 to-violet-500 text-white font-semibold rounded-xl hover:opacity-90 transition-opacity no-underline hover:no-underline glow">
+                        <a href="mailto:hello@example.com" className="inline-flex items-center gap-2 px-6 py-3 bg-linear-to-r from-violet-600 to-violet-500 text-white font-semibold rounded-xl hover:opacity-90 transition-opacity no-underline hover:no-underline glow">
                             Let's build together <ArrowRight className="w-4 h-4" />
                         </a>
                     </div>

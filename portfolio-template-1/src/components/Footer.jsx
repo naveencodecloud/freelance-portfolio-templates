@@ -1,5 +1,5 @@
 const footerLinks = [
-    { href: "mailto: hello@naveen.studio", label: "Contact" },
+    { href: "mailto: hello@example.com", label: "Contact" },
     { href: "#", label: "GitHub" },
     { href: "#", label: "LinkedIn" },
 ]

@@ -24,7 +24,7 @@ export const Hero = () => {
                         <h1 className="text-4xl md:text-6xl lg:text-5xl font-semibold leading-[1.2]">
                             Naveen is a full stack SaaS developer working with founders to design, architect, and launch scalable web applications.
                         </h1>
-                        <a href="mailto: hello@naveen.studio" className="text-lg font-semibold p-1 underline hover:opacity-75">Contact</a>
+                        <a href="mailto: hello@example.com" className="text-lg font-semibold p-1 underline hover:opacity-75">Contact</a>
                         <div className="flex items-center gap-3 mt-2 px-4 py-3 text-sm text-gray-800 font-medium bg-gray-200 rounded-full">
                             <div className="w-2.5 h-2.5 bg-green-600 rounded-full" />
                             <span>Available for new projects</span>

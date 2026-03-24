@@ -21,9 +21,9 @@ export const Footer = () => {
                             <span className="text-[#ffe600]">in mind?</span>
                         </h2>
                     </div>
-                    <a href="mailto:hello@naveen.studio"
+                    <a href="mailto:hello@example.com"
                         className="inline-flex items-center gap-3 px-8 py-4 bg-[#ffe600] text-neutral-900 font-black text-sm uppercase tracking-widest hover:bg-white transition-colors no-underline hover:no-underline group shrink-0">
-                        hello@naveen.studio
+                        hello@example.com
                         <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                     </a>
                 </div>

@@ -58,7 +58,7 @@ export const Hero = () => {
                             <p className="text-base leading-relaxed text-neutral-500">
                                 I design websites, brands, and digital experiences that are bold by intention and precise by craft.
                             </p>
-                            <a href="mailto:hello@naveen.studio"
+                            <a href="mailto:hello@example.com"
                                 className="inline-flex items-center gap-2 px-6 py-3 bg-neutral-900 text-white font-bold text-xs uppercase tracking-widest hover:bg-[#ffe600] hover:text-neutral-900 transition-colors no-underline hover:no-underline group">
                                 Start a Project
                                 <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
